@@ -4,7 +4,7 @@
 
 This project demonstrates infrastructure provisioning using **Terraform** and configuration management using **Ansible** on AWS EC2 instances. The goal is to automate the setup of three instances and install a combination of Java, Python, and MySQL across them using role-based playbooks.
 
-📄 **Assignment PDF**: [Assignment 1](./Assignment%201.pdf)
+📄 **Project PDF**: [Click to view](https://github.com/Vaishnavi-Golhar/Cloud-Resource-Automation-and-Configuration/blob/main/Project%20PDF.pdf)
 
 ---
 
@@ -52,6 +52,33 @@ Configured slave nodes as follows:
 │       ├── java/
 │       ├── python/
 │       └── mysql/
-├── Assignment 1.pdf
-└── README.md
+├── README.md
+```
+
+---
+
+## 💻 Commands Used
+
+### Terraform
+```bash
+terraform init
+terraform plan
+terraform apply
+```
+
+### Ansible
+```bash
+ansible --version
+ansible all -m ping
+ansible-playbook -i inventory site.yml
+```
+
+---
+
+## 👩‍💼 Author
+
+**Vaishnavi Golhar**  
+📧 vaishnavigolhar05@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/vaishnavigolhar/)  
+📁 GitHub: [Vaishnavi-Golhar](https://github.com/Vaishnavi-Golhar)
 
